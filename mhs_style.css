@@ -1,0 +1,108 @@
+body, html{
+    height: 100%;
+    display: grid;
+    padding: 0px;
+    margin: 0px;
+}
+.usd_menu{
+    height: 170px;
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.top{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 85px;
+    width: 100%;
+    position: relative;
+
+}
+.logo{
+    background-color: #FF6B00;
+}
+.top_options{
+    background-color: #176375;
+}
+.navigation{
+    display: block;
+    grid-template-columns: 1fr;
+    background-color: #A3D5DE;
+    position: relative;
+}
+.mhs_menu{
+    display: grid;
+    margin-top: 82px;
+    grid-template-rows: 66% 1fr;
+    height: 453px;
+    width: 100%;
+    position: relative;
+}
+.sign{
+    background-color: #176375;
+}
+.button_area{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 1257.5px;
+    height: 179PX;
+    grid-column-gap: 15px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button{
+    background-color: #A3D5DE;
+}
+.main{
+    width: 66%;
+    height: 1078px;
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 55px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.left{
+    display: grid;
+    grid-template-rows: 450px 35px 320px 35px 222px;
+}
+.photo{
+    background-color: #FF6B00;
+}
+.title{
+    background-color: #176375;
+}
+.events{
+    background-color: #A3D5DE;
+}
+.news{
+    background-color: #A3D5DE;
+}
+.right{
+    display: grid;
+    grid-template-rows: 35px 600px;
+}
+.fb_title{
+    background-color: #FF6B00;
+}
+.facebook_feed{
+    background-color: #176375;
+} 
+.footer{
+    margin-top: 145px;
+    background-color: #FF6B00;
+    height: 144px;
+    position: relative;
+}
+.soc{
+    background-color: #A3D5DE;
+    position: absolute;
+    margin-left: 85%;
+    margin-top: 47px;
+    height: 50px;
+    width: 157px;
+}
