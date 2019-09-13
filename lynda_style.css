@@ -1,0 +1,118 @@
+body, html{
+    height: 100%;
+    display: grid;
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 50px;
+    position: relative;
+}
+.logo1{
+    background-color: #FF6A5C;
+}
+.search{
+    background-color: #006473;
+}
+.account{
+    background-color: #C6E2CC;
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 75%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-column-gap: 15px;
+    position: relative;
+}
+.left{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    grid-row-gap: 5px;
+    height: 370px;
+}
+.continue{
+    background-color: #C6E2CC;
+    height: 205px;
+}
+.playlist{
+    background-color: #006473;
+    height: 160px;
+}
+.right{
+    display: grid;
+    grid-template-rows: 1fr .1fr 10fr;
+}
+.popular_paths{
+    background-color: #FF6A5C;
+    height: 325px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    position: relative;
+}
+.path{
+    background-color: #006473;
+    margin: 10% 10% 10% 10%;
+}
+.options{
+    background-color: #006473;
+}
+.courses{
+    background-color: #C6E2CC;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.course{
+    background-color: #FF6A5C;
+    margin: 5% 20% 5% 5%;
+}
+.footer{
+    height: 500px;
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+}
+.top{
+    background-color: #006473;
+    display: grid;
+    grid-template-columns: .05fr .05fr .05fr;
+    z-index: 0;
+    grid-column-gap: 10px;
+}
+.contact_info{
+    background-color: #C6E2CC;
+    z-index: 1;
+    height: 205px;
+    width: 160px;
+    margin: auto 0px auto 33%;
+}
+.soc{
+    background-color: #FF6A5C;
+    position: absolute;
+    z-index: 1;
+    height: 100px;
+    width: 175px;
+    margin: 10% 25% 50% 80%;
+}
+.bottom{
+    background-color: #FF6A5C;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-column-gap: 160px;
+}
+.copyright_info{
+    background-color: #006473;
+    height: 20px;
+    margin: auto 0px auto 10%;
+    width: 750px;
+}
+.logo2{
+    background-color: #C6E2CC;
+    height: 20px;
+    width: 160px;
+    margin: auto 10% auto 0px;
+}
