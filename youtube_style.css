@@ -1,0 +1,78 @@
+body, html{
+    height: 100%;
+    display: grid;
+    padding: 0px;
+    margin: 0px;
+}
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    height: 58px;
+}
+.logo{
+    background-color: #BAFFFF;
+}
+.search{
+    background-color: #FF97FF;
+}
+.top_options{
+    background-color: #D646F7;
+}
+.main{
+    display: grid;
+    width: 98%;
+    grid-template-columns: 3fr 1fr;
+    height: 3575px;
+    grid-column-gap: 15px;
+    margin-top: 15px;
+    margin: auto;
+}
+.left{
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    margin-top: 15px;
+}
+.content{
+    display: grid;
+    grid-template-rows: 2fr .25fr 1fr;
+}
+.video{
+    background-color: #68F7FB;
+}
+.info{
+    background-color: #FF97FF;
+}
+.description{
+    background-color: #D646F7;
+}
+.comment_area{
+    background-color: #FF97FF;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.comments{
+    background-color: #BAFFFF;
+    margin-top: 70px;
+}
+.right{
+    display: grid;
+    grid-template-rows: 1fr .2fr 10fr;
+    height: 2270.5px;
+    margin-top: 15px;
+}
+.advert{
+    background-color: #FF97FF;
+}
+.opt{
+    background-color: #D646F7;
+}
+.suggestions{
+    background-color: #BAFFFF;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap: 15px;
+}
+.videos{
+    background-color: #68F7FB;
+    width: 85%;
+}
