@@ -1,0 +1,17 @@
+body{
+    background-color: #D1BA9E;
+}
+
+/*------------------------------------------SMART PHONES------------------------------------------*/
+@media only screen and (max-width: 800px){
+    body{
+        background-color: #6C5D4A;
+    }
+}
+
+/*---------------------------------------------TABLETS---------------------------------------------*/
+@media only screen and (min-width: 800px) and (max-width: 1280px){
+    body{
+        background-color: #A89680;
+    }
+}
