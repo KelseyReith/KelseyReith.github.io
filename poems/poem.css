@@ -53,29 +53,35 @@ body{
 
 /*---------------------------------------------TABLETS---------------------------------------------*/
 @media only screen and (min-width: 800px) and (max-width: 1280px){
+    .title_page{
+        position: fixed;
+        display: grid;
+        height: 1280px;
+        width: 800px;
+    }
     .title{
-        font-size: 8em;
+        font-size: 9em;
         text-align: left;
         margin-left: 2%;
-        margin-top: -3.75em;
+        margin-top: -2.5em;
         position: fixed;
     }
     .author{
         position: fixed;
-        margin-top: 30%;
+        margin-top: 25%;
         margin-left: 2%;
     }
     .publish{
         position: fixed;
-        margin-top: 34%;
+        margin-top: 28%;
         margin-left: 2%;
     }
     .poem{
         display: grid;
-        grid-template-columns: 125% 125% 125% 125%;
+        grid-template-columns: 160% 160% 160% 180%;
         grid-column-gap: 2em;
-        margin-top: 40%;
+        margin-top: 25%;
         margin-left: 45%;
-        font-size: 4em;
+        font-size: 5em;
     }
 }
