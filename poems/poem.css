@@ -48,7 +48,44 @@ body{
 
 /*------------------------------------------SMART PHONES------------------------------------------*/
 @media only screen and (max-width: 800px){
-    
+    .main{
+        display: grid;
+        grid-template-columns: 20% 80%;
+        width: 400%;
+    }
+    .title_page{
+        display: grid;
+        height: 812px;
+        width: 375px;
+        position: relative;
+    }
+    .title{
+        font-size: 30em;
+        position: relative;
+        line-height: .75em;
+        margin-top: .5em;
+        margin-left: 20%;
+        text-align: center;
+    }
+    .author{
+        margin-top: 8em;
+        position: absolute;
+        font-size: 20em;
+    }
+    .publish{
+        position: relative;
+    }
+    .poem{
+        display: grid;
+        height: 812px;
+        width: 200%;
+        grid-template-columns: 100% 100% 100% 100%;
+        grid-column-gap: 2em;
+        margin-top: 4em;
+        font-size: 8em;
+        margin-left: 120%;
+        position: relative;
+    }
 }
 
 /*---------------------------------------------TABLETS---------------------------------------------*/
@@ -60,28 +97,30 @@ body{
         width: 800px;
     }
     .title{
-        font-size: 9em;
+        font-size: 35em;
         text-align: left;
         margin-left: 2%;
-        margin-top: -2.5em;
+        margin-top: -3em;
         position: fixed;
     }
     .author{
         position: fixed;
-        margin-top: 25%;
-        margin-left: 2%;
+        margin-top: 100%;
+        margin-left: 5%;
+        font-size: 25em;
     }
     .publish{
         position: fixed;
-        margin-top: 28%;
-        margin-left: 2%;
+        margin-top: 110%;
+        margin-left: 5%;
+        font-size: 20em;
     }
     .poem{
         display: grid;
-        grid-template-columns: 160% 160% 160% 180%;
+        height: 1280px;
+        grid-template-columns: 500% 500% 500% 600%;
         grid-column-gap: 2em;
-        margin-top: 25%;
-        margin-left: 45%;
-        font-size: 5em;
+        margin-top: 4em;
+        font-size: 16em;
     }
 }
