@@ -50,30 +50,34 @@ body{
 @media only screen and (max-width: 800px){
     .main{
         display: grid;
-        grid-template-columns: 20% 80%;
+        grid-template-columns: 120% 50%;
         width: 400%;
+        height: 812px;
     }
     .title_page{
         display: grid;
-        height: 812px;
-        width: 375px;
         position: relative;
     }
     .title{
-        font-size: 30em;
+        font-size: 37em;
         position: relative;
         line-height: .75em;
-        margin-top: .5em;
-        margin-left: 20%;
+        margin-top: -.5em;
+        margin-left: 5%;
         text-align: center;
     }
     .author{
-        margin-top: 8em;
-        position: absolute;
-        font-size: 20em;
+        margin-top: 14em;
+        position: fixed;
+        font-size: 12em;
+        margin-left: 10%;
+        width: 90%;
     }
     .publish{
-        position: relative;
+        position: absolute;
+        margin-top: 15em;
+        font-size: 12em;
+        margin-left: 6em;
     }
     .poem{
         display: grid;
