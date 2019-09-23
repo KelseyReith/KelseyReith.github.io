@@ -13,40 +13,34 @@ body{
     font-size: 15em;
     text-align: center;
     line-height: 2em;
-    margin-top: 1.2em;
+    margin-top: 15%;
 }
 .author{
     font-size: 6em;
     line-height: .1em;
     margin-left: 10%;
-    margin-top: -.3em;
+    margin-top: -.5%;
 }
 .publish{
-    margin-top: -.6em;
+    margin-top: -1.5%;
     font-size: 4em;
     line-height: .1em;
     margin-left: 10%;
 }
 .poem{
+    display: grid;
+    grid-template-rows: .75fr 1fr .6fr .75fr;
+    padding: 2em;
     margin-left: 45%;
     font-size: 4em;
     line-height: .3em;
 }
-.stanza_1{
-    margin-bottom: 2em;
-}
-.stanza_2{
-    margin-bottom: 2em;
-}
-.stanza_3{
-    margin-bottom: 2em;
-}
 .stanza_4{
-    margin-bottom: 4em;
+    margin-bottom: 3em;
 }
 
 /*------------------------------------------SMART PHONES------------------------------------------*/
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 500px){
     .main{
         display: grid;
         grid-template-columns: 120% 50%;
@@ -61,12 +55,12 @@ body{
         font-size: 37em;
         position: relative;
         line-height: 1em;
-        margin-top: -.5em;
         margin-left: 5%;
         text-align: center;
+        margin-top: -8%;
     }
     .author{
-        margin-top: 14em;
+        margin-top: 180%;
         position: fixed;
         font-size: 12em;
         margin-left: 10%;
@@ -74,9 +68,9 @@ body{
     }
     .publish{
         position: absolute;
-        margin-top: 15em;
+        margin-top: 160%;
         font-size: 12em;
-        margin-left: 6em;
+        margin-left: 65%;
     }
     .poem{
         display: grid;
@@ -84,7 +78,7 @@ body{
         width: 200%;
         grid-template-columns: 100% 100% 100% 100%;
         grid-column-gap: 2em;
-        margin-top: 4em;
+        margin-top: 80%;
         font-size: 9em;
         margin-left: 50%;
         position: relative;
@@ -92,7 +86,11 @@ body{
 }
 
 /*---------------------------------------------TABLETS---------------------------------------------*/
-@media only screen and (min-width: 800px) and (max-width: 1280px){
+@media only screen and (min-width: 800px) and (max-width:1000px){
+    .main{
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+    }
     .title_page{
         position: fixed;
         display: grid;
@@ -103,7 +101,7 @@ body{
         font-size: 37em;
         text-align: left;
         margin-left: 2%;
-        margin-top: -.5em;
+        margin-top: -10%;
         position: fixed;
     }
     .author{
@@ -120,11 +118,10 @@ body{
     }
     .poem{
         display: grid;
-        height: 1280px;
-        grid-template-columns: 30% 30% 30% 40%;
+        grid-template-columns: 100% 100% 100% 120%;
         grid-column-gap: 2em;
-        margin-top: 4em;
+        margin-top: 10%;
         font-size: 16em;
-        margin-left: 9em;
+        margin-left: 25%;
     }
 }
