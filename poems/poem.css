@@ -1,5 +1,4 @@
 @import url("https://use.typekit.net/fat5ytz.css");
-
 body{
     padding: 0;
     margin: 0;
@@ -61,7 +60,7 @@ body{
     .title{
         font-size: 37em;
         position: relative;
-        line-height: .75em;
+        line-height: 1em;
         margin-top: -.5em;
         margin-left: 5%;
         text-align: center;
@@ -86,8 +85,8 @@ body{
         grid-template-columns: 100% 100% 100% 100%;
         grid-column-gap: 2em;
         margin-top: 4em;
-        font-size: 8em;
-        margin-left: 120%;
+        font-size: 9em;
+        margin-left: 50%;
         position: relative;
     }
 }
@@ -101,7 +100,7 @@ body{
         width: 800px;
     }
     .title{
-        font-size: 35em;
+        font-size: 37em;
         text-align: left;
         margin-left: 2%;
         margin-top: -.5em;
@@ -111,18 +110,18 @@ body{
         position: fixed;
         margin-top: 130%;
         margin-left: 5%;
-        font-size: 25em;
+        font-size: 20em;
     }
     .publish{
         position: fixed;
         margin-top: 140%;
         margin-left: 5%;
-        font-size: 20em;
+        font-size: 15em;
     }
     .poem{
         display: grid;
         height: 1280px;
-        grid-template-columns: 50% 50% 50% 100%;
+        grid-template-columns: 30% 30% 30% 40%;
         grid-column-gap: 2em;
         margin-top: 4em;
         font-size: 16em;
