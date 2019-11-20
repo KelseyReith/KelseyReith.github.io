@@ -3,16 +3,17 @@ body{
     font-family: p22-underground, sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 1.3em;
     color: #A8A8A8;
 }
 .navigation{
     position: fixed;
     display: grid;
     grid-template-rows: 1fr 2fr;
-    margin: -4em auto auto 2em;
+    margin: -3.5em auto auto 2em;
     color: #43B374;
     height: .5em;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 .header{
     font-weight: 500;
@@ -29,7 +30,7 @@ body{
     margin-bottom: 2em;
 }
 .page_title{
-    margin: 2em auto auto 24%;
+    margin: 1.5em auto auto 30%;
     font-size: 5em;
     font-weight: 100;
     color: #43B374;
@@ -37,14 +38,16 @@ body{
 .bio{
     display: grid;
     grid-template-rows: 1fr .3fr 1fr;
-    height: 1009px;
-    margin-left: 25%;
+    /*height: 1050px;*/
+    height: 51em;
+    margin-left: 31%;
     width: 50%;
 }
 .intro{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 2em;
+    margin-top: 3em;
 }
 .portrait{
     background-color: #43B374;
@@ -52,7 +55,7 @@ body{
 .i_am{
     color: #43B374;
     font-weight: 500;
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin-top: -1em;
 }
 .i_am_line{
@@ -63,12 +66,136 @@ body{
 }
 .contact{
     margin-top: .5em;
+    line-height: .5em;
 }
 .quick_resume{
-    width: 25%;
+    width: 50%;
 }
 .quick_r{
     color: #43B374;
-    font-weight: 500;
-    font-size: 1.5em;
+    font-size: 1.3em;
+}
+.date{
+    font-size: .5em;
+    color: #A8A8A8;
+    margin-top: -2em;
+}
+.works{
+    width: 50%;
+    margin: 3em auto auto 30%;
+}
+.category{
+    font-size: 1.3em;
+    color: #43B374;
+    margin-bottom: 5em;
+}
+.category_line{
+    background-color: #EBEBEB;
+    height: .3em;
+    margin-top: -1em;
+    margin-bottom: 2em;
+}
+.works_title{
+    margin-bottom: -2em;
+    color: #A8A8A8;
+    font-size: .75em;
+}
+/*GRAPHIC DESIGN*/
+.work_links_gd{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: .2fr 1fr 1fr 1fr;
+    grid-gap: 2em;
+    height: 24em;
+}
+.type_design{
+    background-color: #43B374;
+}
+.book_covers{
+    background-color: #43B374;
+}
+.icons{
+    background-color: #43B374;
+}
+.greeting_cards{
+    background-color: #43B374;
+}
+.tea_packaging{
+    background-color: #43B374;
+}
+.letterhead{
+    background-color: #43B374;
+}
+/*PHOTOGRPAHY*/
+.work_links_photo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 2em;
+    height: 15em;
+}
+.light_shad_angles{
+    background-color: #43B374;
+}
+.scanography{
+    background-color: #43B374;
+}
+.hair{
+    background-color: #43B374;
+}
+/*DIGITAL MEDIA*/
+.work_links_dig_med{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+    height: 6.5em;
+}
+.peter_pan{
+    background-color: #43B374;
+}
+.weather{
+    background-color: #43B374;
+}
+/*DRAWING*/
+.work_links_draw{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+    height: 6.5em;
+}
+.drawings{
+    background-color: #43B374;
+}
+.figure_drawings{
+    background-color: #43B374;
+}
+/*PRINTMAKING*/
+.work_links_print{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+    height: 6.5em;
+}
+.burlesque{
+    background-color: #43B374;
+}
+.what_are_you_looking_at{
+    background-color: #43B374;
+}
+/*CERAMICS*/
+.work_links_cer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 2em;
+    height: 15em;
+}
+.translated{
+    background-color: #43B374;
+}
+.vessels{
+    background-color: #43B374;
+}
+.hair_ceramics{
+    background-color: #43B374;
 }
