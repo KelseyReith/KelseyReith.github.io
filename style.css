@@ -95,6 +95,10 @@ body{
     margin-top: -1em;
     margin-bottom: 2em;
 }
+.work_and_title{
+    display: grid;
+    grid-template-rows: .2fr 1fr;
+}
 .works_title{
     margin-bottom: -2em;
     color: #A8A8A8;
@@ -104,9 +108,9 @@ body{
 .work_links_gd{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: .2fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 2em;
-    height: 24em;
+    height: 30em;
 }
 .type_design{
     background-color: #43B374;
@@ -132,7 +136,7 @@ body{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 2em;
-    height: 15em;
+    height: 19em;
 }
 .light_shad_angles{
     background-color: #43B374;
@@ -148,7 +152,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 2em;
-    height: 6.5em;
+    height: 8.5em;
 }
 .peter_pan{
     background-color: #43B374;
@@ -161,7 +165,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 2em;
-    height: 6.5em;
+    height: 8.5em;
 }
 .drawings{
     background-color: #43B374;
@@ -174,7 +178,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 2em;
-    height: 6.5em;
+    height: 8.5em;
 }
 .burlesque{
     background-color: #43B374;
@@ -188,7 +192,7 @@ body{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 2em;
-    height: 15em;
+    height: 19em;
 }
 .translated{
     background-color: #43B374;
