@@ -203,3 +203,29 @@ body{
 .hair_ceramics{
     background-color: #43B374;
 }
+.project_show{
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    height: 90em;
+    width: 69%;
+    margin: 8em auto auto 20%;
+    grid-gap: 2em;
+}
+.row_one{
+    background-color: #43B374;
+}
+.row_two{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 2em;
+}
+.row_three{
+    background-color: #43B374;
+}
+.img{
+    background-color: #43B374;
+}
+.des_image{
+    display: grid;
+    grid-template-rows: 1fr 7fr;
+}
