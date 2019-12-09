@@ -4,68 +4,33 @@ templateClass: tmpl-post
 ---
 
 <div class="page_title">
-            <p class="project_title">{{ title} }</p>
-            <p class="date">{{ date }}</p>
-        </div>
-        <div class="project_show">
-            <div class="row_one">
-            </div>
-            <div class="row_two">
-                <div class="img"></div>
-                <div class="des_image">
-                    <div class="project_description">In this project I was given the verbal description of an object and used this description as inspiration to create a non-objective sculpture.</div>
-                    <div class="img"></div>
-                </div>
-            </div>
-            <div class="row_three">
-            </div>
-        </div>
-        <div class="process_line"></div>
-        <div class="project_show">
-            <div class="row_one">
-            </div>
-            <div class="row_two">
-                <div class="img"></div>
-                <div class="des_image">
-                    <div class="project_description">I assembled the Frame by soldering copper tubes and joints together. I let the act of making dominate as I sculpted the body with clay. I then fired it with clear glaze and dripped candle wax on the exterior.</div>
-                    <div class="img"></div>
-                </div>
-            </div>
-            <div class="row_three">
-            </div>
-        </div>
-
-<div class="work__layout">
-    <div class="work__featured_image">
-        <img src="{{ featured_image | url }}" />
+    <p class="project_title">{{ title }}</p>
+    <p class="date">{{ date }}</p>
+</div>
+<div class="project_show">
+    <div class="row_one">
     </div>
-    <div>
-        <h4>
-            {{ year }}
-        </h4>
-        <h4>
-            {{ type }}
-        </h4>
-        <h4>
-            {{ materials }}
-        </h4>
-        <h5>
-            {{ description }}
-        </h5>
-
-        {% for tag in tags %}
-            {%- if tag != "posts" -%}
-                {% set tagUrl %}/work/{{ tag }}/{% endset %}
-                <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
-            {%- endif -%}
-        {% endfor %}
-
-        <div class="work__support_images">
-            {% for image in support_images %}
-                <img src="{{ image | url }}">
-            {% endfor %}
+    <div class="row_two">
+        <div class="img"></div>
+        <div class="des_image">
+            <div class="project_description">In this project I was given the verbal description of an object and used this description as inspiration to create a non-objective sculpture.</div>
+            <div class="img"></div>
         </div>
-        
-
+    </div>
+    <div class="row_three">
+    </div>
+</div>
+<div class="process_line"></div>
+<div class="project_show">
+    <div class="row_one">
+    </div>
+    <div class="row_two">
+        <div class="img"></div>
+        <div class="des_image">
+            <div class="project_description">I assembled the Frame by soldering copper tubes and joints together. I let the act of making dominate as I sculpted the body with clay. I then fired it with clear glaze and dripped candle wax on the exterior.</div>
+            <div class="img"></div>
+        </div>
+    </div>
+    <div class="row_three">
     </div>
 </div>
