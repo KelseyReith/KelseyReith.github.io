@@ -10,7 +10,7 @@ body{
     position: fixed;
     display: grid;
     grid-template-rows: 1fr 2fr;
-    margin: -3.5em auto auto 2em;
+    margin: 1em auto auto 2em;
     color: #43B374;
     height: .5em;
     font-size: 1.3em;

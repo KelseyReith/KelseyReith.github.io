@@ -4,9 +4,9 @@ tags:
 - work
 - '2018'
 - print
-title: This is a test
+title: Translated
 type: Print
-year: '2018'
+date: 'April 2019'
 featured_image: "/img/61_5-warnick-greece-show.jpg"
 materials: Altered Postcard
 description: A vintage postcard altered with custom stamp.

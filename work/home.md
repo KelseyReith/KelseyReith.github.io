@@ -1,12 +1,13 @@
 ---
-title: Translat
+page_title: Welcome
 layout: layouts/post.njk
 tags:
  - work
  - "2019"
  - print
+title: Where Does Power Lie?
 type: Print
-date: "2019"
+year: "2019"
 featured_image: "/img/61_5-warnick-greece-show.jpg"
 materials: Altered Postcard
 description: A vintage postcard altered with custom stamp.
