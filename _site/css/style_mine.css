@@ -13,6 +13,7 @@ body{
     margin: -3.5em auto auto 2em;
     color: #43B374;
     height: .5em;
+    font-size: 1.3em;
 }
 a{
     color: #43B374;
@@ -21,7 +22,6 @@ a{
 }
 .header{
     font-weight: 500;
-    font-size: 1.3em;
 }
 .buttons{
     margin-top: 1em;
@@ -232,8 +232,8 @@ a{
 }
 .process_line{
     background-color: #EBEBEB;
-    height: .2em;
-    width: 69%;
+    height: .3em;
+    width: 80%;
     margin: 8em auto auto 20%;
 }
 
@@ -250,24 +250,21 @@ a{
     }
     .header{
         position: fixed;
-        margin: 1.5em auto auto 32%;
-        font-size: 1em;
+        margin: .5em auto auto 32%;
     }
     .buttons{
         display: grid;
         width: 100%;
         grid-template-columns: 1fr 1fr;
         margin: .5em auto auto auto;
-        height: 59%;
+        height: 49%;
     }
     .home_button{
         margin-left: -.5em;
-        margin-top: 2em;
     }
     .work_button{
         text-align: right;
         margin-right: 5em;
-        margin-top: 2em;
     }
     .page_title{
         margin: 25% auto auto 25%;
@@ -344,7 +341,7 @@ a{
     }
     .project_show{
         grid-template-rows: 20em 30em 20em;
-        margin: 5em auto auto 15%;
+        margin: 10em auto auto 15%;
         font-size: .7em;
         grid-gap: 2em;
     }
@@ -354,9 +351,9 @@ a{
     }
     .process_line{
         background-color: #EBEBEB;
-        height: .2em;
-        width: 69%;
-        margin: 3.75em auto auto 15%;
+        height: .3em;
+        width: 85%;
+        margin: 7.5em auto auto 15%;
     }
 }
 
@@ -367,33 +364,30 @@ a{
     }
     .navigation{
         width: 100%;
-        margin-top: -11.4em;
+        margin-top: -10.3em;
         font-size: 1em;
     }
     .buttons{
         background-color: white;
         display: block;
-        height: 44%;
+        height: 49%;
     }
     .header{
         position: fixed;
-        margin: 1.5em auto auto 30%;
-        font-size: 1em;
+        margin: .5em auto auto 30%;
     }
     .buttons{
         display: grid;
         width: 100%;
         grid-template-columns: 1fr 1fr;
-        margin: 1.5em auto auto auto;
+        margin: .5em auto auto auto;
     }
     .home_button{
         margin-left: -.5em;
-        margin-top: 1em;
     }
     .work_button{
         text-align: right;
         margin-right: 5em;
-        margin-top: 1em;
     }
     .page_title{
         margin: 35% auto auto 16.5%;
@@ -472,7 +466,7 @@ a{
     }
     .project_show{
         grid-template-rows: 15em 22.5em 15em;
-        margin: 5em auto auto 15%;
+        margin: 10em auto auto 15%;
         font-size: .7em;
         grid-gap: 2em;
     }
@@ -482,8 +476,8 @@ a{
     }
     .process_line{
         background-color: #EBEBEB;
-        height: .2em;
-        width: 69%;
-        margin: 3.75em auto auto 15%;
+        height: .3em;
+        width: 86%;
+        margin: 7em auto auto 14%;
     }
 }
