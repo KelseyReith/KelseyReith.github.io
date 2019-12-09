@@ -5,10 +5,11 @@ templateClass: tmpl-post
 
 <div class="page_title">
     <p class="project_title">{{ title }}</p>
-    <p class="date">{{ date }}</p>
+    <p class="date">{{ when }}</p>
 </div>
 <div class="project_show">
     <div class="row_one">
+
     </div>
     <div class="row_two">
         <div class="img"></div>
@@ -23,6 +24,9 @@ templateClass: tmpl-post
 <div class="process_line"></div>
 <div class="project_show">
     <div class="row_one">
+        {% for image in support_images %}
+                <img src="{{ image | url }}">
+        {% endfor %}
     </div>
     <div class="row_two">
         <div class="img"></div>
