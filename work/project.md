@@ -1,9 +1,7 @@
 ---
 layout: layouts/post.njk
 tags:
-- work
-- '2018'
-- print
+ - work
 title: Translated
 when: April 2019
 type: Print
@@ -18,6 +16,6 @@ result_images:
 process_images:
 - "/img/ceramics/translated/process1.png"
 - "/img/ceramics/translated/process2.png"
-- "/img/ceramics/translated/process3png"
+- "/img/ceramics/translated/process3.png"
 
 ---

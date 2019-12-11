@@ -205,35 +205,26 @@ a{
 .hair_ceramics{
     background-color: #43B374;
 }
+.des{
+    width: 69%;
+    font-size: 1em;
+    margin: 4em auto auto 20%;
+}
 .project_show{
     display: grid;
-    grid-template-rows: 30em 45em 30em;
     width: 69%;
-    margin: 8em auto auto 20%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 2em auto auto 20%;
     grid-gap: 2em;
 }
-.row_one{
-    background-color: #43B374;
-}
-.row_two{
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   grid-gap: 2em;
-}
-.row_three{
-    background-color: #43B374;
-}
-.img{
-    background-color: #43B374;
-}
-.des_image{
-    display: grid;
-    grid-template-rows: 1fr 7fr;
+img{
+    width: 600px;
 }
 .process_line{
     background-color: #EBEBEB;
     height: .3em;
-    width: 80%;
+    width: 50%;
     margin: 8em auto auto 20%;
 }
 
