@@ -51,8 +51,8 @@ a{
     grid-gap: 2em;
     margin-top: 3em;
 }
-.portrait{
-    background-color: #43B374;
+img.portrait{
+    width: 400px;
 }
 .i_am{
     color: #43B374;
@@ -224,7 +224,7 @@ img{
 .process_line{
     background-color: #EBEBEB;
     height: .3em;
-    width: 50%;
+    width: 69%;
     margin: 8em auto auto 20%;
 }
 
@@ -260,6 +260,9 @@ img{
     .page_title{
         margin: 25% auto auto 25%;
         font-size: 4em;
+    }
+    img.portrait{
+        width: 400px;
     }
     .bio{
         display: grid;
@@ -344,9 +347,25 @@ img{
         background-color: #EBEBEB;
         height: .3em;
         width: 85%;
-        margin: 7.5em auto auto 15%;
+        margin: 7.5em auto auto 10%;
+    }
+    .des{
+        font-size: 1em;
+        margin: 4em auto auto 10%;
+    }
+    .project_show{
+        display: grid;
+        width: 50%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin: 10em auto auto 10%;
+        grid-gap: 2em;
+    }
+    img{
+        width: 300px;
     }
 }
+
 
 /*------------------------------------------SMART PHONES------------------------------------------*/
 @media only screen and (max-width: 500px){
@@ -383,6 +402,9 @@ img{
     .page_title{
         margin: 35% auto auto 16.5%;
         font-size: 4em;
+    }
+    img.portrait{
+        width: 230px;
     }
     .bio{
         display: grid;
@@ -464,6 +486,21 @@ img{
     .des_image{
         display: grid;
         grid-template-rows: 1fr 1.3fr;
+    }
+    .des{
+        font-size: .6em;
+        margin: 4em auto auto 10%;
+    }
+    .project_show{
+        display: grid;
+        width: 50%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin: 5em auto auto 10%;
+        grid-gap: 2em;
+    }
+    img{
+        width: 135px;
     }
     .process_line{
         background-color: #EBEBEB;
