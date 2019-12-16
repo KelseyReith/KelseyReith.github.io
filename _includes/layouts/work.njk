@@ -2,6 +2,7 @@
 layout: layouts/base.njk
 templateClass: tmpl-post
 ---
+
 <div class="page_title"><p>Work</p></div>
 <div class="works">
     <div class="graphic_design">
@@ -125,3 +126,5 @@ templateClass: tmpl-post
         </div>
     </div>
 </div>
+{% set postslist = collections.work %}
+{% include "partials/postlist.njk" %}

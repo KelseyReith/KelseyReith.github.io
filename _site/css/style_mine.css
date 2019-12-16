@@ -206,7 +206,7 @@ img.portrait{
     background-color: #43B374;
 }
 .des{
-    width: 69%;
+    width: 34%;
     font-size: 1em;
     margin: 4em auto auto 20%;
 }
@@ -248,33 +248,35 @@ img{
         width: 100%;
         grid-template-columns: 1fr 1fr;
         margin: .5em auto auto auto;
-        height: 49%;
+        height: 51%;
     }
     .home_button{
         margin-left: -.5em;
+        margin-top: 1em;
     }
     .work_button{
         text-align: right;
         margin-right: 5em;
+        margin-top: 1em;
     }
     .page_title{
         margin: 25% auto auto 25%;
         font-size: 4em;
     }
     img.portrait{
-        width: 400px;
+        width: 500px;
     }
     .bio{
         display: grid;
         height: 98em;
-        margin-left: 25%;
+        margin-left: 18%;
     }
     .intro{
         grid-template-rows: 1fr 1fr;
         grid-template-columns: 1fr;
     }
     .contact{
-        margin-top: -10em;
+        margin-top: -12em;
     }
     .quick_resume{
         width: 100%;
@@ -350,6 +352,7 @@ img{
         margin: 7.5em auto auto 10%;
     }
     .des{
+        width: 80%;
         font-size: 1em;
         margin: 4em auto auto 10%;
     }
@@ -380,7 +383,7 @@ img{
     .buttons{
         background-color: white;
         display: block;
-        height: 49%;
+        height: 51%;
     }
     .header{
         position: fixed;
@@ -394,10 +397,12 @@ img{
     }
     .home_button{
         margin-left: -.5em;
+        margin-top: 1em;
     }
     .work_button{
         text-align: right;
         margin-right: 5em;
+        margin-top: 1em;
     }
     .page_title{
         margin: 35% auto auto 16.5%;
@@ -488,6 +493,7 @@ img{
         grid-template-rows: 1fr 1.3fr;
     }
     .des{
+        width: 80%;
         font-size: .6em;
         margin: 4em auto auto 10%;
     }
