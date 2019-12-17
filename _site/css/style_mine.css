@@ -97,116 +97,21 @@ img.portrait{
     margin-top: -1em;
     margin-bottom: 2em;
 }
+.item_org{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+}
 .individual_item{
     display: grid;
     grid-template-rows: .2fr 1fr;
-    margin-left: -7.75em;
 }
 .item_title{
     color: #A8A8A8;
-    font-size: .75em;
+    font-size: .9em;
 }
 .item_image{
     width: 12em;
-    margin-top: -2em;
-}
-/*GRAPHIC DESIGN*/
-.work_grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2em;
-    height: 30em;
-}
-.type_design{
-    background-color: #43B374;
-}
-.book_covers{
-    background-color: #43B374;
-}
-.icons{
-    background-color: #43B374;
-}
-.greeting_cards{
-    background-color: #43B374;
-}
-.tea_packaging{
-    background-color: #43B374;
-}
-.letterhead{
-    background-color: #43B374;
-}
-/*PHOTOGRPAHY*/
-.work_links_photo{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 2em;
-    height: 19em;
-}
-.light_shad_angles{
-    background-color: #43B374;
-}
-.scanography{
-    background-color: #43B374;
-}
-.hair{
-    background-color: #43B374;
-}
-/*DIGITAL MEDIA*/
-.work_links_dig_med{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2em;
-    height: 8.5em;
-}
-.peter_pan{
-    background-color: #43B374;
-}
-.weather{
-    background-color: #43B374;
-}
-/*DRAWING*/
-.work_links_draw{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2em;
-    height: 8.5em;
-}
-.drawings{
-    background-color: #43B374;
-}
-.figure_drawings{
-    background-color: #43B374;
-}
-/*PRINTMAKING*/
-.work_links_print{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2em;
-    height: 8.5em;
-}
-.burlesque{
-    background-color: #43B374;
-}
-.what_are_you_looking_at{
-    background-color: #43B374;
-}
-/*CERAMICS*/
-.work_links_cer{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 2em;
-    height: 19em;
-}
-.translated{
-    background-color: #43B374;
-}
-.vessels{
-    background-color: #43B374;
-}
-.hair_ceramics{
-    background-color: #43B374;
 }
 .des{
     width: 34%;
@@ -222,7 +127,7 @@ img.portrait{
     grid-gap: 2em;
 }
 img{
-    width: 600px;
+    width: 27em;
 }
 .process_line{
     background-color: #EBEBEB;
@@ -360,15 +265,14 @@ img{
         margin: 4em auto auto 10%;
     }
     .project_show{
-        display: grid;
+        display: block;
         width: 50%;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
         margin: 10em auto auto 10%;
-        grid-gap: 2em;
     }
     img{
-        width: 300px;
+        width: 40em;
+        margin-bottom: 2em;
     }
 }
 
@@ -501,15 +405,14 @@ img{
         margin: 4em auto auto 10%;
     }
     .project_show{
-        display: grid;
+        display: block;
         width: 50%;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        margin: 5em auto auto 10%;
-        grid-gap: 2em;
+        grid-template-columns: 1fr;
+        margin: 10em auto auto 10%;
     }
     img{
-        width: 135px;
+        width: 32em;
+        margin-bottom: 2em;
     }
     .process_line{
         background-color: #EBEBEB;

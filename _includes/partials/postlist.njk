@@ -2,19 +2,17 @@
 
 
   {% for post in postslist %}
-    <div class="works">
-      <div class="work_grid">
-        <div class="individual_item">
-          <div class="item_title">
-            <a href="{{ post.url | url }}">
-              {{ post.data.title }}
-            </a>
-          </div>
-          <div class="item_image">
-            <a href="{{ post.url | url }}">
-              <img class="item_image" src="{{ post.data.featured_image | url }}" />
-            </a>
-          </div>
+    <div class="item_org">
+      <div class="individual_item">
+        <div class="item_title">
+          <a class="item_title" href="{{ post.url | url }}">
+            {{ post.data.title }}
+          </a>
+        </div>
+        <div class="item_image">
+          <a href="{{ post.url | url }}">
+            <img class="item_image" src="{{ post.data.featured_image | url }}" />
+          </a>
         </div>
       </div>
     </div>
