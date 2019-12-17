@@ -40,4 +40,5 @@ fields:
   config: {}
   label: process_images
 pages:
+- work/tea-packaging.md
 - work/type-design.md
