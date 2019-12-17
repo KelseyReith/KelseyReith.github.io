@@ -97,20 +97,23 @@ img.portrait{
     margin-top: -1em;
     margin-bottom: 2em;
 }
-.work_and_title{
+.individual_item{
     display: grid;
     grid-template-rows: .2fr 1fr;
+    margin-left: -7.75em;
 }
-.works_title{
-    margin-bottom: -2em;
+.item_title{
     color: #A8A8A8;
     font-size: .75em;
 }
+.item_image{
+    width: 12em;
+    margin-top: -2em;
+}
 /*GRAPHIC DESIGN*/
-.work_links_gd{
+.work_grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 2em;
     height: 30em;
 }

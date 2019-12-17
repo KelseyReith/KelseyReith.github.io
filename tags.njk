@@ -9,13 +9,6 @@ renderData:
   title: Tagged “{{ tag }}”
 ---
 
-<div class="work__title">
-    {{ tag | upper }}
-</div>
-    
-{% set postslist = collections[tag] %}
-{% include "partials/postlist.njk" %}
-
 <div class="page_title"><p>Work</p></div>
 <div class="works">
     <div class="graphic_design">

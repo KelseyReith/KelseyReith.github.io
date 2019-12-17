@@ -12,7 +12,7 @@ description: Throughout this course I was given problems to solve. I was also gi
   parameters to work within, which challenged me to create effective design with a
   limited tool box.
 process_des: ''
-support_images:
+result_images:
 - "/img/Screen Shot 2019-11-17 at 2.39.22 PM.png"
 - "/img/Screen Shot 2019-11-17 at 2.40.05 PM.png"
 - "/img/Screen Shot 2019-11-17 at 2.39.35 PM.png"
