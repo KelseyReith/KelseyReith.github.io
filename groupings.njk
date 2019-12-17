@@ -1,0 +1,30 @@
+---
+layout: layouts/base.njk
+---
+
+<div class="page_title"><p>Work</p></div>
+<div class="works">
+    <div class="graphic_design">
+        <div class="category">
+            <p>Graphic Design</p>
+            <div class="category_line"></div>
+
+            {% set postslist = collections["graphic"] %}
+            {% include "partials/postlist.njk" %}
+
+        </div>
+    </div>
+</div>
+
+<div class="work__title">
+    graphic
+</div>
+    
+
+
+<div class="work__title">
+    type
+</div>
+    
+{% set postslist = collections["type"] %}
+{% include "partials/postlist.njk" %}

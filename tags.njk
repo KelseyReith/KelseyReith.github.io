@@ -16,4 +16,66 @@ renderData:
 {% set postslist = collections[tag] %}
 {% include "partials/postlist.njk" %}
 
-<div>hi</div>
+<div class="page_title"><p>Work</p></div>
+<div class="works">
+    <div class="graphic_design">
+        <div class="category">
+            <p>Graphic Design</p>
+            <div class="category_line"></div>
+
+            {% set postslist = collections["graphic"] %}
+            {% include "partials/postlist.njk" %}
+
+        </div>
+    </div>
+    <div class="photography">
+        <div class="category">
+            <p>Photography</p>
+            <div class="category_line"></div>
+
+            {% set postslist = collections["photography"] %}
+            {% include "partials/postlist.njk" %}
+
+        </div>
+    </div>
+    <div class="digital_media">
+        <div class="category">
+            <p>Digtal Media</p>
+            <div class="category_line"></div>
+
+            {% set postslist = collections["digital"] %}
+            {% include "partials/postlist.njk" %}
+
+        </div>
+    </div>
+    <div class="drawing">
+        <div class="category">
+            <p>Drawing</p>
+            <div class="category_line"></div>
+
+            {% set postslist = collections["drawing"] %}
+            {% include "partials/postlist.njk" %}
+
+        </div>
+    </div>
+    <div class="printmaking">
+        <div class="category">
+            <p>Printmaking</p>
+            <div class="category_line"></div>
+
+            {% set postslist = collections["printmaking"] %}
+            {% include "partials/postlist.njk" %}
+
+        </div>
+    </div>
+    <div class="ceramics">
+        <div class="category">
+            <p>Ceramics</p>
+            <div class="category_line"></div>
+
+            {% set postslist = collections["ceramics"] %}
+            {% include "partials/postlist.njk" %}
+
+        </div>
+    </div>
+</div>
