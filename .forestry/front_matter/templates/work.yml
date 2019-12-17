@@ -44,3 +44,5 @@ fields:
 - type: image_gallery
   name: support_images
   label: support_images
+pages:
+- work/type-design.md
