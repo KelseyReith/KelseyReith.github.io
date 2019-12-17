@@ -12,12 +12,6 @@ fields:
 - type: text
   name: title
   label: title
-- type: text
-  name: type
-  label: type
-- type: text
-  name: year
-  label: year
 - name: when
   type: text
   config:
@@ -26,9 +20,6 @@ fields:
 - type: file
   name: featured_image
   label: featured_image
-- type: text
-  name: materials
-  label: materials
 - type: text
   name: description
   label: description
@@ -42,7 +33,11 @@ fields:
       format: markdown
   label: process_des
 - type: image_gallery
-  name: support_images
-  label: support_images
+  name: result_images
+  label: result_images
+- name: process_images
+  type: image_gallery
+  config: {}
+  label: process_images
 pages:
 - work/type-design.md
