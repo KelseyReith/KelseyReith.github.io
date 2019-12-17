@@ -18,6 +18,11 @@ fields:
 - type: text
   name: year
   label: year
+- name: when
+  type: text
+  config:
+    required: false
+  label: when
 - type: file
   name: featured_image
   label: featured_image
@@ -27,15 +32,17 @@ fields:
 - type: text
   name: description
   label: description
+- name: process_des
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: process_des
 - type: image_gallery
   name: support_images
   label: support_images
-- type: field_group
-  name: eleventyNavigation
-  label: eleventyNavigation
-  fields:
-  - type: text
-    name: key
-    label: key
 pages:
-- work/this-is-from-forestry.md
+- work/type-design.md
