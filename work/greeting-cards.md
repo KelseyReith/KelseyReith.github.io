@@ -1,6 +1,7 @@
 ---
 layout: layouts/post.njk
-tags: []
+tags:
+- graphic
 title: Greeting Cards
 when: Fall 2019
 featured_image: "/img/card_kelseyreith_2.jpg"

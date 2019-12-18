@@ -1,6 +1,7 @@
 ---
 layout: layouts/post.njk
-tags: []
+tags:
+- graphic
 title: Legibility of Type
 when: Fall 2019
 featured_image: "/img/leg_cover.png"
