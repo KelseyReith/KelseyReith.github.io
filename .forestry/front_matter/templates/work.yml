@@ -41,5 +41,6 @@ fields:
   label: process_images
 pages:
 - work/calendar.md
+- work/greeting-cards.md
 - work/tea-packaging.md
 - work/type-design.md
