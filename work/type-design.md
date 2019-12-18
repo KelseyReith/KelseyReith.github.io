@@ -1,6 +1,7 @@
 ---
 layout: layouts/post.njk
 tags:
+- work
 - graphic
 title: Type & Design
 type: ''

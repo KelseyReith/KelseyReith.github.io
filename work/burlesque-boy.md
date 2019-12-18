@@ -1,6 +1,7 @@
 ---
 layout: layouts/post.njk
 tags:
+- work
 - printmaking
 title: Burlesque Boy
 when: Spring 2018

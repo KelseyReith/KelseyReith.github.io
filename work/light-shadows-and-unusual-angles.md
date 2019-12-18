@@ -1,6 +1,7 @@
 ---
 layout: layouts/post.njk
 tags:
+- work
 - photography
 title: Light, Shadows, and Unusual Angles
 when: Spring 2019

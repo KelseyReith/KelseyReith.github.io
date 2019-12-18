@@ -1,6 +1,7 @@
 ---
 layout: layouts/post.njk
 tags:
+- work
 - digital
 title: Weather
 when: Fall 2019

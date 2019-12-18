@@ -1,6 +1,7 @@
 ---
 layout: layouts/post.njk
 tags:
+- work
 - drawing
 title: Drawing
 when: 2017–2018

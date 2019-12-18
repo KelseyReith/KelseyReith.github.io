@@ -1,6 +1,7 @@
 ---
 layout: layouts/post.njk
 tags:
+- work
 - drawing
 title: Figure
 when: Spring 2019

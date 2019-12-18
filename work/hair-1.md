@@ -1,6 +1,7 @@
 ---
 layout: layouts/post.njk
 tags:
+- work
 - ceramics
 title: Hair
 when: Spring 2019

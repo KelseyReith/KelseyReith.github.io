@@ -1,6 +1,7 @@
 ---
 layout: layouts/post.njk
 tags:
+- work
 - graphic
 title: Design and the Play Instinct
 when: Fall 2019

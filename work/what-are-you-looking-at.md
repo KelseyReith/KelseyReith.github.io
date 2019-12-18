@@ -1,6 +1,7 @@
 ---
 layout: layouts/post.njk
 tags:
+- work
 - printmaking
 title: What Are You Looking At?
 when: Spring 2018

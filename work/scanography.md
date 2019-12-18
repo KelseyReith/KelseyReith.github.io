@@ -1,6 +1,7 @@
 ---
 layout: layouts/post.njk
 tags:
+- work
 - photography
 title: Scanography
 when: Spring 2019

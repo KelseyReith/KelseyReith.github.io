@@ -1,6 +1,7 @@
 ---
 layout: layouts/post.njk
 tags:
+- work
 - graphic
 title: Calendar
 when: Fall 2019
