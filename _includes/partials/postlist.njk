@@ -1,8 +1,7 @@
 <div class="postlist">
 
-
-  {% for post in postslist %}
-    <div class="item_org">
+  <div class="item_org">
+    {% for post in postslist %}
       <div class="individual_item">
         <div class="item_title">
           <a class="item_title" href="{{ post.url | url }}">
@@ -15,8 +14,7 @@
           </a>
         </div>
       </div>
-    </div>
-  {% endfor %}
-
+    {% endfor %}
+  </div>
   
 </div>
