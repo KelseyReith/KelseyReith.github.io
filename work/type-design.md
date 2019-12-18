@@ -6,7 +6,7 @@ title: Type & Design
 type: ''
 year: ''
 when: Fall 2018
-featured_image: "/img/Screen Shot 2019-11-17 at 2.41.11 PM.png"
+featured_image: "/img/type_feat.png"
 materials: ''
 description: Throughout this course I was given problems to solve. I was also given
   parameters to work within, which challenged me to create effective design with a
@@ -23,5 +23,6 @@ result_images:
 - "/img/Screen Shot 2019-11-17 at 2.42.16 PM.png"
 - "/img/Screen Shot 2019-11-17 at 2.41.53 PM.png"
 - "/img/Screen Shot 2019-11-17 at 2.41.40 PM.png"
+process_images: []
 
 ---

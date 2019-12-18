@@ -4,7 +4,7 @@ tags:
 - photography
 title: Scanography
 when: Spring 2019
-featured_image: "/img/page1.jpg"
+featured_image: "/img/page1_feat.jpg"
 description: These images were created with a scanner and an object which will remain
   unidentified.
 process_des: ''
