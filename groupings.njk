@@ -14,17 +14,54 @@ layout: layouts/base.njk
 
         </div>
     </div>
-</div>
+    <div class="photography">
+        <div class="category">
+            <p>Photography</p>
+            <div class="category_line"></div>
 
-<div class="work__title">
-    graphic
-</div>
-    
+            {% set postslist = collections["photography"] %}
+            {% include "partials/postlist.njk" %}
 
+        </div>
+    </div>
+    <div class="digital_media">
+        <div class="category">
+            <p>Digtal Media</p>
+            <div class="category_line"></div>
 
-<div class="work__title">
-    type
+            {% set postslist = collections["digital"] %}
+            {% include "partials/postlist.njk" %}
+
+        </div>
+    </div>
+    <div class="drawing">
+        <div class="category">
+            <p>Drawing</p>
+            <div class="category_line"></div>
+
+            {% set postslist = collections["drawing"] %}
+            {% include "partials/postlist.njk" %}
+
+        </div>
+    </div>
+    <div class="printmaking">
+        <div class="category">
+            <p>Printmaking</p>
+            <div class="category_line"></div>
+
+            {% set postslist = collections["printmaking"] %}
+            {% include "partials/postlist.njk" %}
+
+        </div>
+    </div>
+    <div class="ceramics">
+        <div class="category">
+            <p>Ceramics</p>
+            <div class="category_line"></div>
+
+            {% set postslist = collections["ceramics"] %}
+            {% include "partials/postlist.njk" %}
+
+        </div>
+    </div>
 </div>
-    
-{% set postslist = collections["type"] %}
-{% include "partials/postlist.njk" %}
