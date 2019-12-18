@@ -4,7 +4,7 @@ tags:
 - photography
 title: Light, Shadows, and Unusual Angles
 when: Spring 2019
-featured_image: "/img/_DSC0126_0087.jpg"
+featured_image: "/img/light_feat.jpg"
 description: This work explores how light and shadow can be used to abstract everyday
   objects.
 process_des: ''
