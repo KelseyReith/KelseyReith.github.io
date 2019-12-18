@@ -1,6 +1,7 @@
 ---
 layout: layouts/post.njk
-tags: []
+tags:
+- digital
 title: Peter Pan
 when: Fall 2019
 featured_image: "/img/read_feat.png"
