@@ -15,11 +15,11 @@ description: Throughout this course I was given problems to solve. I was also gi
 process_des: ''
 result_images:
 - "/img/type4-2.png"
-- "/img/type6-2.png"
+- "/img/type_1-2.png"
 - "/img/type2-2.png"
 - "/img/type3-2.png"
 - "/img/type7-2.png"
-- "/img/type_1-2.png"
+- "/img/type6-2.png"
 - "/img/type5-2.png"
 - "/img/type9-2.png"
 - "/img/type10-2.png"
